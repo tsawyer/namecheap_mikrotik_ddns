@@ -5,6 +5,7 @@ Thanks to:
 * https://www.ipify.org
 * https://github.com/MattDietz/mattdietz.net/blob/master/posts/namecheap-dyndns-with-a-mikrotik.md
 * https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-to-dynamically-update-the-hosts-ip-with-an-http-request/
+* MikroTik scripts are created/edited on your work station and sftp to the router. https://youtu.be/QdKLe1TBZPU 
 
 MikroTik script:
 ```
@@ -27,6 +28,3 @@ MikroTik script:
 /tool fetch url=($url1) mode=http
 :log info "DNS Successfully Updated"
 ```
-
-MilroTik scripts are created on your local work station and sftp to the router. 
-* https://youtu.be/QdKLe1TBZPU
