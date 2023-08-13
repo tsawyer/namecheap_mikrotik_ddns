@@ -11,7 +11,7 @@ MikroTik script:
 # namecheap-update.rsc
 # Set local variables. If you want to update subdomain.example.com, put in "subdomain" under subdomain and "example.com" in the domain variable. If you want to update just example.com with no subdomain, enter in "@" for the subdomain.
 
-:local password "<password_from namecheep>"
+:local password "<password_from_namecheep>"
 :local subdomain "<optional_subdomain>"
 :local domain "<domain.tld>"
 
@@ -25,7 +25,7 @@ MikroTik script:
 # Post to Namecheep
 :local url1 "http://dynamicdns.park-your-domain.com/update\3Fhost=$subdomain&domain=$domain&password=$password&ip=$currentIP"
 /tool fetch url=($url1) mode=http
-:log info "DNS Successfully Updated"%
+:log info "DNS Successfully Updated"
 ```
 
 MilroTik scripts are created on your local work station and sftp to the router. 
