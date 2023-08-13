@@ -4,6 +4,7 @@ MikroTik DDNS updater script for Namecheap
 Thanks to:
 * https://www.ipify.org
 * https://github.com/MattDietz/mattdietz.net/blob/master/posts/namecheap-dyndns-with-a-mikrotik.md
+* https://gist.github.com/hron84/4179837
 * https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-to-dynamically-update-the-hosts-ip-with-an-http-request/
 * MikroTik scripts are created/edited on your work station and sftp to the router. https://youtu.be/QdKLe1TBZPU 
 
