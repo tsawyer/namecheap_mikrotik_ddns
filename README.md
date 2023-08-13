@@ -2,20 +2,20 @@
 MikroTik DDNS updater script for Namecheap
 
 Thanks to:
-* https://www.ipify.org
-* https://github.com/MattDietz/mattdietz.net/blob/master/posts/namecheap-dyndns-with-a-mikrotik.md
-* https://gist.github.com/hron84/4179837
-* https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-to-dynamically-update-the-hosts-ip-with-an-http-request/
-* MikroTik scripts are created/edited on your work station and sftp to the router. https://youtu.be/QdKLe1TBZPU 
+* Get Public IP - https://www.ipify.org
+* Script ideas - https://github.com/MattDietz/mattdietz.net/blob/master/posts/namecheap-dyndns-with-a-mikrotik.md
+* Script ideas - https://gist.github.com/hron84/4179837
+* Namecheap setup - https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-to-dynamically-update-the-hosts-ip-with-an-http-request/
+* MikroTik scripting info - https://youtu.be/QdKLe1TBZPU 
 
 MikroTik script:
 ```
 # namecheap-update.rsc
 # Set local variables. If you want to update subdomain.example.com, put in "subdomain" under subdomain and "example.com" in the domain variable. If you want to update just example.com with no subdomain, enter in "@" for the subdomain.
 
-:local password "43ddc42212c24feba2285ece449f39a8"
-:local subdomain "woodfern"
-:local domain "wd6awp.us"
+:local password "<password_from_namecheap>"
+:local subdomain "<subdomain>"
+:local domain "<domain.tld>"
 
 :global dyndnsForce
 :global previousIP
