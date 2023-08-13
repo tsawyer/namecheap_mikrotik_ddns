@@ -28,5 +28,5 @@ MikroTik script:
 :log info "DNS Successfully Updated"%
 ```
 
-MilroTik scripts are created on you local work station and sftp to you router. 
+MilroTik scripts are created on your local work station and sftp to the router. 
 * https://youtu.be/QdKLe1TBZPU
